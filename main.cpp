@@ -1,6 +1,6 @@
 #include <iostream>
-
+#include "headers/videoStream.h"
 int main() {
-    std::cout << "Hello, World!" << std::endl;
-    return 0;
+    int a;
+    a = videoCap();
 }

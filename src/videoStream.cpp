@@ -9,9 +9,10 @@
 #include "highgui.h"
 using namespace cv;
 
-int main()
+
+int videoCap(int hardwareID)
 {
-    VideoCapture cap(0);
+    VideoCapture cap(hardwareID);
     if (!cap.isOpened())
     {
         printf("camera error");
